@@ -1,12 +1,12 @@
 const mongoose = require("mongoose")
 const Detail = mongoose.Schema({
-    brandName:String,
-    brandIconUrl:String,
-    links:[
+    brandName: String,
+    brandIconUrl: String,
+    links: [
         {
-            label:String,
-            url:String,
-            
+            label: String,
+            url: String,
+
         }
     ],
 
@@ -14,4 +14,4 @@ const Detail = mongoose.Schema({
 })
 
 
-module.exports=mongoose.model("detail",Detail)
+module.exports = mongoose.model("detail", Detail)

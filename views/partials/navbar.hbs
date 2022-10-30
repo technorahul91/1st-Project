@@ -1,9 +1,10 @@
 <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark ">
   <div class="container">
     <a class="navbar-brand" href="#">
-              <img src="{{data.brandIconUrl}}" alt="Bootstrap" width="40" height="26" style="border-radius:50%">
-        {{data.brandName}}</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="{{data.brandIconUrl}}" alt="Bootstrap" width="40" height="26" style="border-radius:50%">
+      {{data.brandName}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -13,11 +14,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="{{this.url}}">{{this.label}}</a>
         </li>
-       {{/each}}
+        {{/each}}
       </ul>
-      
+
     </div>
   </div>
 </nav>
-
-
